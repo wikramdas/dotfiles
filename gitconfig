@@ -32,5 +32,6 @@
 	rs = reset
 	sl = stash list
 	st = status --short --branch --ignore-submodules=dirty
+	rlc = reset --hard HEAD^
 	[core]
 	editor = nano
